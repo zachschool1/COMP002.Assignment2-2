@@ -8,12 +8,13 @@
 // ##
 // #
 
-let height = 7;
+let height = 8;
 
-for(let i = 0; i < height; i++) {
-    for(let j = 0; j < height - i; j++) {
-        console.log(`#`.repeat(i));
-    }
-    console.log("2");
+//i was trying to do nested for loops before like I did with C, but the repeat doesnt require that
+for(let i = 0; i < height / 2; i++) {
+    console.log("#".repeat(i));
 }
-console.log(" ");
+
+for( let i = height - 1; i >= 0; i--) {
+    console.log("#".repeat(i));
+}
