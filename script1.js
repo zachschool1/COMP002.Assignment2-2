@@ -15,6 +15,6 @@ for(let i = 0; i < height / 2; i++) {
     console.log("#".repeat(i));
 }
 
-for( let i = height - 1; i >= 0; i--) {
+for( let i = height / 2; i >= 0; i--) {
     console.log("#".repeat(i));
 }
