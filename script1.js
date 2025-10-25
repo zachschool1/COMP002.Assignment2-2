@@ -7,3 +7,13 @@
 // ###
 // ##
 // #
+
+let height = 7;
+
+for(let i = 0; i < height; i++) {
+    for(let j = 0; j < height - i; j++) {
+        console.log(`#`.repeat(i));
+    }
+    console.log("2");
+}
+console.log(" ");
